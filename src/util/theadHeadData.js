@@ -1,0 +1,1 @@
+export const theadData=['Year','Investment Value','Interest (Year)','Total Interest','Invseted Capital',];

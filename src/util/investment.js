@@ -21,6 +21,8 @@ export function calculateInvestmentResults({
       interest: interestEarnedInYear, // the amount of interest earned in this year
       valueEndOfYear: investmentValue, // investment value at end of year
       annualInvestment: annualInvestment, // investment added in this year
+      totalInvestment: initialInvestment + annualInvestment * (i + 1), // total investment made so far
+      totalInterest: interestEarnedInYear + (annualData[i - 1]?.totalInterest || 0)
     });
   }
 
