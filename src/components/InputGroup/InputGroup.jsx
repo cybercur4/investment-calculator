@@ -1,5 +1,5 @@
 import { inputsArray } from "../../util/inputFields";
-export default function InputGroup() {
+export default function InputGroup({ handleInputChange }) {
     return (
         <div id='user-input' className="input-group">
             {inputsArray.map((row) =>
@@ -7,7 +7,7 @@ export default function InputGroup() {
                     {row.map((input) =>
                         <div id='input-label-combo'>
                             <label>{input.label}</label>
-                            <input id={input.id} type={input.type}></input>
+                            <input id={input.id} type={input.type} onChange={handleInputChange}></input>
                         </div>)}
                 </div>)}
         </div>

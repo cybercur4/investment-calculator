@@ -2,16 +2,16 @@ export const inputsArray=[
     [{
         label: "Initial Investment",
         id: "initial-investment",
-        type:null
+        type:"number"
     },{
         label:"Expected Return",
         id:"expected-return",
-        type:null
+        type:"number"
     }],
     [    {
         label:"Annual Investment",
         id:"annual-investment",
-        type:null
+        type:"number"
     },{
         label:"Duration",
         id:"duration",
