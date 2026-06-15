@@ -64,6 +64,10 @@ body {
   font-size: 1rem;
 }
 
+#input-label-combo{
+  padding: 15px 0;
+}
+
 #result {
   max-width: 50rem;
   margin: 2rem auto;

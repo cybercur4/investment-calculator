@@ -1,11 +1,12 @@
-import Body from "./components/Body/Body"
 import Header from "./components/Header/Header"
+import InputGroup from "./components/InputGroup/InputGroup"
 
 function App() {
   return (
     <>
     <Header/>
-    <Body/>
+    <InputGroup/>
+    <h1>Grid</h1>
     </>
   )
 }
