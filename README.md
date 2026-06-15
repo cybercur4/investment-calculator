@@ -126,17 +126,4 @@ The calculator validates all inputs to ensure:
 
 Works on all modern browsers that support ES6+ JavaScript and React 18+.
 
-## License
-
-This project is open source and available under the MIT License.
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest improvements
-- Submit pull requests
-
-## Support
-
 For issues or questions, please open an issue in the repository.
